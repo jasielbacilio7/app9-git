@@ -5,13 +5,13 @@ xmlns:gap ="http://phonegap.com/ns/1.0"
 id ="com.phonegap.example9"
 version ="1.0.0">
 
-<name>app9 Geolocalizar</name>
+<name>app9 Geolocalizacion</name>
 
 <description>
-Muestra la ubicacion del dispositivo de acuerdo al gps
+Muestra la ubicacion del dispositivo deacuerdo al GPS
 </description>
 
-<author href="http://build.phonegap.com" email="aguilarpatricia882@gmail.com">
+<author href="http://build.phonegap.com" email="baciliojasiel@gmail.com">
 Jasiel Bacilio Cebada 4F
 </author>
 
@@ -30,16 +30,10 @@ Jasiel Bacilio Cebada 4F
   <plugin name="cordova-plugin-vibration" spec="~2.1.3"/>
   <plugin name="cordova-plugin-dialogs" spec="~1.3.1"/>
   
-  <!-- <plugin name"cordova-plugin-inappbrowser" spec="~1.7.0"/> -->
-  
-  < <plugin name="cordova-plugin-geolocation" source="npm"/>
-	<!--Third part plugins-->
+  <!-- <plugin para geolocalizar-->
+  <plugin name="cordova-plugin-geolocation" source="npm"/>
 	
-	<!--Para accesar a paginas en internet-->
-	<allow-intent href="https://*/*"/>
-	<acces origin="https://*/*"/>
-	<allow-intent href="http://*/*"/>
-	<acces origin="http://*/*"/>
+	
 	<plugin name="cordova-plugin-whitelist" source="npm"/>
 	
 	<!--Colocar icono app-->
