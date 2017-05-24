@@ -11,7 +11,7 @@ function onDeviceReady(){
 		getPosition();
 	});
 	
-	$('watch').on('click',function(){
+	$('#watch').on('click',function(){
 		watchPosition();
 	});
 	
